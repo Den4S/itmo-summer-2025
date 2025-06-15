@@ -1,3 +1,9 @@
+# CUSTOM
+.DS_Store
+# ignore dataset
+data/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
