@@ -7,11 +7,10 @@ python = "^3.11,<3.12"
 numpy = "<2.0"
 
 # our package
-# svetlanna = { git = "https://github.com/CompPhysLab/SVETlANNa.git", branch = "dev" }
-# svetlanna = "^1.0.1"
+svetlanna = "^1.0.2"
 
 # OLD METHOD to import our package
-svetlanna = { path = "../SVETlANNa/", develop = false }
+# svetlanna = { path = "../SVETlANNa/", develop = false }
 
 matplotlib = "<3.9.2"
 jupyter = "^1.1.1"

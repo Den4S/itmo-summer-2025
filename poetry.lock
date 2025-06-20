@@ -2904,13 +2904,15 @@ tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
 name = "svetlanna"
-version = "0.1.0"
-description = "Open source library for simulation and engineering of optical setups and diffractive neural networks"
+version = "1.0.2"
+description = "SVETlANNa is an open-source Python library for simulation of free-space optical set-ups and neuromorphic systems such as Diffractive Neural Networks."
 optional = false
-python-versions = "^3.11,<3.12"
+python-versions = "<3.12,>=3.11.0"
 groups = ["main"]
-files = []
-develop = false
+files = [
+    {file = "svetlanna-1.0.2-py3-none-any.whl", hash = "sha256:9283750d6828d1a53aa77ec7583f4a808d35f7cde62585195ec5a5813b5a8efc"},
+    {file = "svetlanna-1.0.2.tar.gz", hash = "sha256:75b1c1928aae828f0dd5ba67a0ac52c12b1a4c7b24c3b897f6580a12cfa6390c"},
+]
 
 [package.dependencies]
 anywidget = ">=0.9.13,<0.10.0"
@@ -2920,10 +2922,6 @@ numpy = "<2.0"
 
 [package.extras]
 pandas = ["pandas (>=2.2.3,<3.0.0)"]
-
-[package.source]
-type = "directory"
-url = "../SVETlANNa"
 
 [[package]]
 name = "sympy"
@@ -3298,4 +3296,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11,<3.12"
-content-hash = "32805e24d3f9a65cc44f9b102049299104e7752d5f4177aea04f11f1ca953fbb"
+content-hash = "a96d8c87d64576d091b2dc717d1aca9041c202b4c3010eaea25da4629b2ea79c"
